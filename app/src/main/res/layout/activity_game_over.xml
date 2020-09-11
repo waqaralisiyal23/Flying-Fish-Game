@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".GameOverActivity">
+
+    <TextView
+        android:id="@+id/game_over_text_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/game_over"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPink"
+        android:textStyle="bold"
+        android:textSize="56sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/play_again_button"
+        android:layout_below="@+id/game_over_text_view"
+        android:background="@color/colorPink"
+        android:padding="10dp"
+        android:text="@string/play_again"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_marginTop="60dp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/score_text_view"
+        android:text="@string/score"
+        android:textSize="40sp"
+        android:textColor="@color/colorPink"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/play_again_button"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
