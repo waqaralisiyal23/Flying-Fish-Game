@@ -4,7 +4,7 @@ Flying Fish game in android developed using java
 
 ## Screenshots
 
-<img src="ss1.PNG" height="300em" /> <img src="ss2.PNG" height="300em" /> <img src="ss3.PNG" height="300em" />
+<img src="ss1.jpeg" height="300em" /> <img src="ss2.jpeg" height="300em" /> <img src="ss3.jpeg" height="300em" />
 
 ## License & Copyright
 
